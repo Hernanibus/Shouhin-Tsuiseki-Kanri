@@ -1,0 +1,29 @@
+/*
+    Styles added for domain-user-control application
+ */
+
+.applications-table
+{
+    background-color: burlywood;
+    padding: 5px;
+}
+div.full-maku
+{
+    position: fixed;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: rgba( 0, 0, 0, 0.25 );
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    z-index: 1000;
+}
+div.row{ box-sizing: border-box; }
+div.adm-editor-container{ width: 80vw;max-height: 85vh; overflow-x: hidden; overflow-y: auto; }
+div.adm-editor-container-row{ display: flex;flex-flow: row nowrap;justify-content: end;padding: 5px;width: 100vw; }
+.hidden{ display:none !important; }
+
